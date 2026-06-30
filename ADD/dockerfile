@@ -1,0 +1,3 @@
+FROM almalinux:9
+ADD https://raw.githubusercontent.com/jrjaswanth-spec/shell-script/refs/heads/main/06-data-types /tmp/notes.txt
+CMD ["sleep" , "100"]
